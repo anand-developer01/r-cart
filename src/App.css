@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  --theme-color: #6913e3;
+  --left-nav-width: 200px;
+  --left-nav-min-width: 50px;
+  --header-height: 50px;
+}

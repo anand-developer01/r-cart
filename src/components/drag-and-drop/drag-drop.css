@@ -1,0 +1,48 @@
+.column-box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.columns-a, .columns-b {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+
+.column {
+    flex: 1 1 0%;
+    /* width: 150px; */
+    min-height: 200px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    background-color: lightgray;
+    cursor: move;
+    /* width: 100%; */
+    text-align: center;
+}
+
+.item-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}

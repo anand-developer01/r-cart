@@ -1,0 +1,44 @@
+/* pagination.css */
+.pagination-container {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pagination-item {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-item.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.pagination-item.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.pagination-item.dots {
+  cursor: default;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.arrow.left {
+  border-bottom: 5px solid #000;
+}
+
+.arrow.right {
+  border-top: 5px solid #000;
+}

@@ -1,0 +1,7 @@
+.main-cont {
+    display: flex;
+}
+
+.ul-list-box li{
+ list-style: none;
+}
